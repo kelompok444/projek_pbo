@@ -1,7 +1,7 @@
 <?php
 
-//class manusia 
-class manusia {
+//class kelinci
+class kelinci {
    //property
    var $nama;
    var $warna; 
@@ -16,13 +16,13 @@ function __ destruct (){
    echo "ini adalah isi method destruct<br/>";
    }
    
-//method manusia
+//method kelinci
 function __ tampilkan_nama() {
   return "Nama saya pulung_koding<br/>";
 }
 
-//instansiasi class manusia 
-$ manusia = new manusia ();
+//instansiasi class kelinci
+$ kelinci = new kelinci ();
 
-//memanggil method tampilkan_nama dari class manusia
-echo $ manusia -> tampilkan_nama ();
+//memanggil method tampilkan_nama dari class kelinci
+echo $ kelinci -> tampilkan_nama ();
