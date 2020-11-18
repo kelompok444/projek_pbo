@@ -1,7 +1,7 @@
 <?php
 
-// class manusia
-class manusia {
+// class kelinci
+class kelinci {
   //menentukan property dengan private 
   private $nama = "pulung koding "; 
   
@@ -11,8 +11,8 @@ class manusia {
   } 
 }
 
-//instansiasi class manusia
-$manusia = new manusia ();
+//instansiasi class kelinci
+$kelinci = new Kelinci ();
 
-//memanggil method public tampilkan_nama dari class manusia
-echo  $manusia->tampilkan_nama();
+//memanggil method public tampilkan_nama dari class kelinci
+echo  $kelinci->tampilkan_nama();
