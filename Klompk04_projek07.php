@@ -1,19 +1,19 @@
 <?php
 
-//class manusia 
-class manusia{
+//class kelinci
+class kelinci{
    //prop 
      public $nama;
      public $warna;
 
-   //method manusia 
+   //method kelinci
    function tampilan_nama() {
           return "Nama saya pulang_coding} <br/>" ;
     }
 
 } 
-//instansiasi class manusia
-$manusia=new manusia() ;
+//instansiasi class kelinci
+$kelinci=new kelinci() ;
 
-//memanggil method tampilan_nama dari class manusia
-echo smanusia->tampilkan_nama();
+//memanggil method tampilan_nama dari class kelinci
+echo $kelinci->tampilkan_nama();
