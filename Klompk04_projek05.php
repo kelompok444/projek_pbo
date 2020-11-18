@@ -1,7 +1,7 @@
 <?php
 
- //calss manusia
-  class manusia{
+ //calss kelinci
+  class kelinci{
    //property
      var $nama;
      var $warna;
@@ -11,18 +11,18 @@
        echo"ini adalah isi method construct <br/>";
      }
      
-     // method manusia
+     // method kelinci
      function tampilkan_nama(){
            return"Nama saya pulung_coding <br/>";
       }
    
    
   }
-   //instansiasi class manusia
-   $manusia = new manusia();
+   //instansiasi class kelinci
+   $manusia = new kelinci();
    
    //memanggil method tampilkan_nama dari class manusia
-   echo Smanusia -> tampilkan_nama();
+   echo $kelinci -> tampilkan_nama();
    
   
  ?>
