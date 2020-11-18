@@ -1,6 +1,6 @@
 <?php
    // Cara penulisan class dan property OOP PHP - @pulung_coding
-   class sepeda{
+   class motor{
     // property OOP
      var $warna;
      var $merek;
